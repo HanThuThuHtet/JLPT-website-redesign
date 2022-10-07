@@ -5,17 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
     <title>JLPT</title>
 </head>
 <body>
     <!-- Start Header  -->
-    <header>
+    <header id="header">
 
         <!-- Start navbar -->
         <nav class="navbar navbar-expand">
             <div class="container">
-                <a href="index.html" class="navbar-brand"> <img src="./img/jlpt2.png" alt="jlptlogo" width="70px"></a>
+                <!-- <a href="index.html" class="navbar-brand"> <img src="./img/jlpt2.png" alt="jlptlogo" width="70px"></a> -->
+                <a href="index.html" class="navbar-brand d-flex"> 
+                    <h1 class="text-sec">JL</h1>
+                    <h1 class="text-danger">P</h1>
+                    <h1 class="text-sec">T</h1>
+                </a>
                 <div class="navbar-collapse">
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item">
@@ -31,7 +38,7 @@
                             <a href="index.html" class="nav-link">Home</a>
                         </li>
                     </ul>
-                    <button type="button" class="btn btn-md pri-btn">Practice free</button>
+                    <button type="button" class="pri-btn">Free test</button>
                 </div>
             </div>
         </nav>
@@ -40,15 +47,25 @@
         <section class="banner">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6"></div>
-                    <div class="col-lg-6 media">
-                        <div class="circle"></div>
-                        <!-- <img src="./img/cloud.png" alt="" class="circle"> -->
-                        <img src="./img/mon2.png" width="100%" height="450px" alt="" class="toji">
-                    
-                        <img src="./img/sakura.png" width="200px" alt="" class="sakura1">
-                        <img src="./img/sakura.png" width="140px" alt="" class="sakura2">
-                        <img src="./img/cloud1.png" width="400px" alt="cloud" class="cloud">
+                    <div class="col-lg-6 bannertitle  py-5">
+                        <h1 class="bannerheader pt-4"> Explore and test your Japanese skills</h1>
+                        <h4 class="bannertext py-4">We're here to help you test and improve your Japanese language skills. Let's get started!</h4>
+                        <div class="banner-btn mt-3">
+                            <button class="pri-btn me-3 ">Free Test</button>
+                            <button class="pri-outline-btn ">Find out more <i class="fa-solid fa-fw fa-circle-chevron-right"></i></button>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="bannerimg">
+                           
+                            <!-- <img src="./img/cloud.png" alt="" class="circle"> -->
+                            <img src="./img/mon2.png" width="100%" height="450px" alt="" class="toji">
+                        
+                            <img src="./img/sakura.png" width="200px" alt="" class="sakura1">
+                            <img src="./img/sakura.png" width="140px" alt="" class="sakura2">
+                            <img src="./img/cloud1.png" width="400px" alt="cloud" class="cloud">
+                        </div>
                     </div>
                    
                    
