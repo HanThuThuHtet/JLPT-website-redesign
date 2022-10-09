@@ -12,10 +12,10 @@
 </head>
 <body>
     <!-- Start Header  -->
-    <header id="header">
+    <header id="header" class="py-3">
 
         <!-- Start navbar -->
-        <nav class="navbar navbar-expand">
+        <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <!-- <a href="index.html" class="navbar-brand"> <img src="./img/jlpt2.png" alt="jlptlogo" width="70px"></a> -->
                 <a href="index.html" class="navbar-brand d-flex"> 
@@ -23,46 +23,55 @@
                     <h1 class="text-danger">P</h1>
                     <h1 class="text-sec">T</h1>
                 </a>
-                <div class="navbar-collapse">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item">
                             <a href="index.html" class="nav-link active">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a href="index.html" class="nav-link">Home</a>
+                            <a href="index.html" class="nav-link">Test site</a>
+                        </li>
+                       <li class="nav-item">
+                            <a href="index.html" class="nav-link">Practice free</a>
                         </li>
                         <li class="nav-item">
-                            <a href="index.html" class="nav-link">Home</a>
+                            <a href="index.html" class="nav-link">Registration process</a>
                         </li>
                         <li class="nav-item">
-                            <a href="index.html" class="nav-link">Home</a>
+                            <a href="index.html" class="nav-link">FAQ</a>
                         </li>
                     </ul>
-                    <button type="button" class="pri-btn">Free test</button>
+                    <button type="button" class="pri-outline-btn">Book a test</button>
                 </div>
             </div>
         </nav>
         <!-- End navbar -->
 
-        <section class="banner">
+        <section class="banner py-1">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 bannertitle  py-5">
-                        <h1 class="bannerheader pt-4"> Explore and test your Japanese skills</h1>
+                        <!-- <h1 class="bannerheader pt-3"> Explore and test your Japanese skills</h1> -->
+                        <h1 class="bannerheader pt-1">Take a test , upgrade  your<span class="text-danger"> Japanese skills</span></h1>
+                        <!-- career opportunities
+                        advanced education -->
                         <h4 class="bannertext py-4">We're here to help you test and improve your Japanese language skills. Let's get started!</h4>
-                        <div class="banner-btn mt-3">
-                            <button class="pri-btn me-3 ">Free Test</button>
-                            <button class="pri-outline-btn ">Find out more <i class="fa-solid fa-fw fa-circle-chevron-right"></i></button>
-                            
+                        <div class="banner-btn pt-2 pb-4">
+                            <button class="pri-btn me-3 ">Let's Try Sample Questions!</button>
+                            <button class="pri-outline-btn ">Learn more <i class="fa-solid fa-fw fa-circle-chevron-right"></i></button>
                         </div>
+                        <h6 class="text-secondary">Over <span class="text-sec fw-bold">1,000,000+</span> of examinees take JLPT Exam every year</h6>
                     </div>
                     <div class="col-lg-6">
                         <div class="bannerimg">
                            
                             <!-- <img src="./img/cloud.png" alt="" class="circle"> -->
-                            <img src="./img/mon2.png" width="100%" height="450px" alt="" class="toji">
+                            <img src="./img/mon2.png" width="100%" height="430px" alt="" class="toji">
                         
-                            <img src="./img/sakura.png" width="200px" alt="" class="sakura1">
+                            <img src="./img/sakura.png" width="180px" alt="" class="sakura1">
                             <img src="./img/sakura.png" width="140px" alt="" class="sakura2">
                             <img src="./img/cloud1.png" width="400px" alt="cloud" class="cloud">
                         </div>
@@ -76,6 +85,16 @@
 
     </header>
      <!-- End Header -->
+
+     <!-- Start Counter -->
+
+    <section id="counter">
+        <div class="container">
+            <div class="bg-white con"></div>
+        </div>
+    </section>
+
+     <!-- End Counter -->
 
      <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
