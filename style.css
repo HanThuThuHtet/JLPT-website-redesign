@@ -120,14 +120,14 @@ header{
  color: var(--sec-color);
 }
 
-/* span.textani{
-    border-right: 3px solid var(--red);
+span.textani{
+    border-right: 3px solid rgba(211, 120, 120, 0.616);
     
     animation-name: mycursorani;
-    animation-duration: .5s;
+    animation-duration: .4s;
     animation-iteration-count: infinite;
 
-} */
+}
 
 @keyframes mycursorani{
     from{
