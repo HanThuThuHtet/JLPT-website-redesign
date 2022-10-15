@@ -26,8 +26,9 @@ function showwords(word){
 
     let showinterval = setInterval(function(){
         if(x >= word.length){
-            clearInterval(showinterval);
-            deletewords();
+           clearInterval(showinterval);
+           delayTimer();
+        //    deletewords();
         }else{
             gettextani.innerHTML += word[x];
             x++;
@@ -36,14 +37,21 @@ function showwords(word){
 
 }
 
+let timeoutID;
+function delayTimer(){
+    timeoutID = setTimeout(deletewords,1500);
+}
+
 function deletewords(){
     let getword = gettextani.innerHTML;
     let getlastidx = getword.length - 1;
     let delinterval = setInterval(function(){
         if(getlastidx >= 0){
+           
             gettextani.innerHTML = gettextani.innerHTML.substring(0,gettextani.innerHTML.length-1);
             getlastidx--;
         }else{
+           
             gettextani.classList.remove(changetext.indexOf(getword));
             showwords(changetext[gen.next().value]);
             clearInterval(delinterval);
