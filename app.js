@@ -33,7 +33,7 @@ function showwords(word){
             gettextani.innerHTML += word[x];
             x++;
         }
-    },400);
+    },100);
 
 }
 
