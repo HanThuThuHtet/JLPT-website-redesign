@@ -15,6 +15,7 @@
     --third-color: #64c3ed;
     --fourth-color: #3f7392;
     --grad-color: linear-gradient(-45deg, #64c3ed 0%, #004581 100% );
+    --grad-color2: linear-gradient(-45deg, #43a7ff 0%, #e2f6ff 100% );
     }
 
 /* body{
@@ -53,6 +54,15 @@ header{
         
     }
 
+    .text-grad2{
+    
+        /* background: var(--grad-color2);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; */
+         color: var(--white);
+        
+    }
+
    
 
 
@@ -81,7 +91,7 @@ header{
     padding: 6px 12px;
     border-radius: 5px;
 
-    box-shadow: #00458138  0px 7px 20px 0px;
+    /* box-shadow: #00458138  0px 7px 20px 0px; */
 
     /* box-shadow: #102b428c  0px 2px 7px 0px; */
    
@@ -96,7 +106,7 @@ header{
     padding: 6px 12px;
     border-radius: 5px;
     background: none;
-    box-shadow: #00458138  0px 5px 10px 0px;
+    /* box-shadow: #00458138  0px 5px 10px 0px; */
     
 
     /* box-shadow: #102b428c  0px 2px 4px 0px; */
@@ -157,7 +167,7 @@ span.textani{
     z-index: 9;
     /* left: -20px; */
     right: 0;
-    bottom: 80px;
+    /* bottom: 80px; */
    
 }
 
@@ -244,19 +254,24 @@ span.textani{
 
 /* Start Counter */
 
-
+/* .counter-container{
+    background: var(--pri-color);
+} */
 
 .counterbox{
-    background: var(--white);
-    /* box-shadow: #0a0a0a0c  0px 5px 10px 0px; */
-    box-shadow: rgba(142, 149, 156, 0.2) 0px 8px 20px;
-    margin-top: -60px;
-    border-radius: 10px;
+    background: var(--sec-color);
+    color: var(--white);
+    /* box-shadow: rgba(142, 149, 156, 0.2) 0px 8px 20px; */
+    /* margin-top: -60px; */
+    border-radius: 0px;
 }
 
 .counterbox h2{
+    font-size: 40px;
     font-family: 'Montserrat', sans-serif;
 }
+
+
 
 /* End Counter */
 
