@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
@@ -44,7 +45,7 @@
                             <a href="index.html" class="nav-link">FAQ</a>
                         </li>
                     </ul>
-                    <button type="button" class="pri-outline-btn">Book a test</button>
+                    <button type="button" class="pri-btn">Book a test</button>
                 </div>
             </div>
         </nav>
@@ -64,7 +65,7 @@
 
                         <div class="banner-btn pt-2 pb-4">
                             <button class="pri-btn me-3 mb-2">Let's Try Sample Questions!</button>
-                            <button class="pri-outline-btn mb-2">Learn more <i class="fa-solid fa-fw fa-circle-chevron-right"></i></button>
+                            <a class=" mb-2 ms-3 learnmore">Learn more <i class="fa-solid fa-fw fa-circle-chevron-right"></i></a>
                         </div>
 
                         <!-- <h6 class="text-secondary"> <i class="fa-solid fa-fw fa-circle-check text-grad"></i> Over <span class="text-grad fw-bold">1,000,000+</span> examinee take our test every year.</h6> -->
@@ -94,34 +95,42 @@
 
      <!-- Start Counter -->
 
-    <section id="counter">
-        <div class="container-fluid counterbox  py-5">
+    <section id="counter" class="pb-2">
+        <div class="container-fluid counterbox pt-2 pb-5">
           <div class="container ">
            
-            <div class="row">
+            <div class="row counter">
                 <!-- <div class="col-lg-3">
                    
                 </div> -->
                 <div class="col-lg-10  mx-auto">
-                    <div class="row text-center py-3">
-                        <h4 class="pt-4 pb-5">Our exam around the world</h4>
-                       <div class="col-4 p-2">
-                            <h4><i class="bi bi-people text-grad2 fw-bold"></i></h4>
-                            <h2 class="py-2"><span class="fw-bold">10M+</span></h2>
+                    <div class="row text-center py-3 mb-2">
+                        <h4 class="pt-4 pb-2">Our exam around the world</h4>
+                       <div class="col-4 py-4  counter-content">
+                        <div class="icons">
+                            <h4 class="mb-0"><i class="bi bi-people text-sec"></i></h4>
+                        </div>
+                            <h2 class="mt-5 py-2"><span class="fw-bold">10M+</span></h2>
                             <h6>examinees per year</h6>
                         </div>
-                        <div class="col-4 p-2">
-                            <h4><i class="bi bi-geo-alt text-grad2 fw-bold"></i></h4>
-                            <h2 class="py-2"><span class="fw-bold">249+</span></h2>
+                        <div class="col-4  py-4 counter-content">
+                            <div class="icons">
+                                <h4 class="mb-0"><i class="bi bi-geo-alt text-sec"></i></h4>
+                            </div>
+                            <h2 class="mt-5 py-2"><span class="fw-bold">249+</span></h2>
                             <h6> cities of testsite</h6>
                         </div>
                         <!-- <div class="col-4 p-2">
                             <h3><span class="text-grad fw-bold">100%</span></h3>
                             <h6>ensure advanced education <br> and job opportunities</h6>
                         </div> -->
-                        <div class="col-4 p-2">
-                            <h4><i class="bi bi-patch-check text-grad2 fw-bold"></i></h4>
-                            <h2 class="py-2"><span class="fw-bold">100%</span></h2>
+                        <div class="col-4  py-4 counter-content">
+
+                            <div class="icons">
+                                <h4 class="mb-0"><i class="bi bi-patch-check text-sec"></i></h4>
+                            </div>
+                           
+                            <h2 class="mt-5 py-2"><span class="fw-bold">100%</span></h2>
                             <h6>ensure opportunities <br> in Japan</h6>
                         </div>
                    </div>
