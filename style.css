@@ -41,6 +41,10 @@ header{
     color: var(--sec-color);
 }
 
+.text-fourth{
+    color: var(--fourth-color);
+}
+
 
     .text-grad{
     
@@ -87,8 +91,8 @@ header{
     color: var(--white);
     font-size: 18px;
     border: 1px solid var(--sec-color);
-    font-weight: 600;
-    padding: 6px 12px;
+    font-weight: 500;
+    padding: 8px 12px;
     border-radius: 5px;
 
     box-shadow: #00458138  0px 7px 20px 0px;
@@ -102,7 +106,7 @@ header{
     border: 1px solid var(--sec-color);
     color: var(--sec-color);
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
     padding: 6px 12px;
     border-radius: 5px;
     background: none;
@@ -336,6 +340,11 @@ span.textani{
    
 }
 
+.counter-content:hover h6{
+    color: var(--white);
+}
+
+
 
 
 
@@ -351,17 +360,30 @@ span.textani{
    
 }
 
+.introheader{
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--grad-color);
+    
+}
+
 .person{
     position: absolute;
     z-index: 4;
-    box-shadow: inset;
+    box-shadow: rgba(142, 149, 156, 0.1) 0px 8px 20px;
+    border-radius: 20px;
+
+    position: absolute;
+
+    top: 40px;
+    left: 30px;
 }
 .square1{
-    width: 200px;
-    height: 200px;
-    background: var(--sec-color);
-    opacity: 0.8;
-    border-radius: 30px;
+    width: 100px;
+    height: 100px;
+    background: var(--third-color);
+    opacity: 1;
+    border-radius: 50%;
     position: absolute;
 
     top: 0;
@@ -370,28 +392,27 @@ span.textani{
 }
 
 .square2{
-    width: 200px;
-    height: 200px;
-    background: var(--sec-color);
-    opacity: 0.8;
-    border-radius: 30px;
+    width: 100px;
+    height: 100px;
+    background: var(--fourth-color);
+    opacity: 1;
+    border-radius: 50%;
     position: absolute;
 
-    top: 10px;
-    left: 45%;
+    top: 250px;
+    right: 0;
     z-index: 1;
 }
 
 .square3{
-    width: 250px;
+    width: 400px;
     height: 250px;
-    background: var(--sec-color);
-    opacity: 0.8;
-    border-radius: 30px;
+    background: var(--blue-color);
+   
+    border-radius: 20px;
     position: absolute;
-
-   left: 18%;
-    top: 100px;
+    right: 0;
+    top: 80px;
     z-index: 1;
 }
 
