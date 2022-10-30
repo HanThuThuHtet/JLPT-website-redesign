@@ -356,7 +356,7 @@ span.textani{
 /* Start Intro  */
 .introimgbox{
     position: relative;
-    height: 100vh;
+    /* height: 100vh; */
    
 }
 
