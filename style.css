@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 :root{
     /* --pri-color: #CF342B ;
     --sec-color: #580B1D;
@@ -22,6 +23,9 @@
     background: var(--pri-color);
    
 } */
+*{
+    font-family: 'Montserrat', sans-serif;
+}
 header{
 
     background: var(--pri-color);
@@ -155,7 +159,7 @@ header{
 }
 
 .bannerheader{
- font-size: 55px;
+ font-size: 50px;
  font-weight: 700;
  color: var(--sec-color);
  line-height: 75px;
@@ -356,8 +360,8 @@ span.textani{
 /* Start Intro  */
 .introimgbox{
     position: relative;
-    /* height: 100vh; */
-   
+    width: 100%;
+    height: 380px;
 }
 
 .introheader{
@@ -368,21 +372,20 @@ span.textani{
 }
 
 .person{
-    position: absolute;
-    z-index: 4;
+   
+    z-index: 9;
     box-shadow: rgba(142, 149, 156, 0.1) 0px 8px 20px;
     border-radius: 20px;
-
-    position: absolute;
-
-    top: 40px;
+    top: 30px;
     left: 30px;
+    position: absolute;
+    
 }
 .square1{
     width: 100px;
     height: 100px;
     background: var(--third-color);
-    opacity: 1;
+    opacity: 0.8;
     border-radius: 50%;
     position: absolute;
 
@@ -415,6 +418,41 @@ span.textani{
     top: 80px;
     z-index: 1;
 }
+
+.airplane{
+    position: absolute;
+    right: -40px;
+    top: 190px;
+    z-index: 10;
+    transform: rotate(-10deg);
+}
+
+.path{
+    position: absolute;
+    height: 200px;
+    left: 380px;
+    top: 200px;
+    z-index: 10;
+    transform: rotate(230deg);
+
+    opacity: 0.5;
+    
+}
+
+.path1{
+    position: absolute;
+    height: 200px;
+    left: 160px;
+    top: 220px;
+    z-index: 10;
+    transform: rotate(-100deg);
+    opacity: 0.5;
+    
+}
+
+
+
+
 
 /* End Intro */
 
